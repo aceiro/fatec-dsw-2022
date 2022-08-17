@@ -1,9 +1,7 @@
-import { describe } from "node:test";
-import supertest from "supertest";
 describe('Before starwars functional test', ()=>{
     it('should return a list of planets from starwars API', async()=>{
-        const {body, status} = await supertest(app).get('/planets');
-        expect(status).toBe(200);
-        expect(body).toBe({});
+        const {body, status} = await global.testRequest.get('/planets');
+        expect(status).toEqual(200);
+        expect(body).toEqual({});
     });
 });
