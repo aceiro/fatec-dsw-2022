@@ -17,3 +17,11 @@ git push
 git checkout -b aula01.done.step2
 git status
 ```
+
+## Parte 2
+
+``` bash
+yarn add -D @typescript-eslint/eslint-plugin eslint @typescript-eslint/parser
+
+```
+

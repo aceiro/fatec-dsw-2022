@@ -1,6 +1,5 @@
 import * as path from 'path';
 import moduleAlias from 'module-alias'
-import { pathToFileURL } from 'url';
 
 const files = path.resolve(__dirname, '../..');
 
