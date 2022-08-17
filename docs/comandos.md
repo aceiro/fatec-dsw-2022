@@ -32,3 +32,10 @@ yarn add -D ts-node-dev
 
 ```
 
+## Parte 4
+
+``` bash
+yarn add -D jest ts-jest @types/jest
+yarn add -D supertest @types/supertest
+```
+
