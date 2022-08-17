@@ -1,0 +1,32 @@
+{
+  "name": "starwars-api",
+  "version": "1.0.0",
+  "description": "----- Disciplina de Laboratório de Desenvolvimento de Software Web (DSW).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.7.6",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aceiro/fatec-dsw-2022.git"
+  },
+  "author": "Erik Aceiro Antonio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aceiro/fatec-dsw-2022/issues"
+  },
+  "homepage": "https://github.com/aceiro/fatec-dsw-2022#readme",
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
