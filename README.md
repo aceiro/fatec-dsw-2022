@@ -13,7 +13,7 @@ Essa disciplina visa a elaboração de um projeto, empregando Metodologia Ágil,
 - [Github Actions](https://github.com/features/actions)
 
 ## Etapas
-- [Parte 0] - Apresentação da disciplina
+- [Parte 0] - Apresentação da disciplina (✅)
 - [Parte 1] - Apresentação do projeto MVP. Configuração do ambiente de desenvolvimento
 - [Parte 2] - Integração com serviço externo
 - [Parte 3] - Criação da camada de serviço e API
