@@ -25,3 +25,10 @@ yarn add -D @typescript-eslint/eslint-plugin eslint @typescript-eslint/parser
 
 ```
 
+## Parte 3
+
+``` bash
+yarn add -D ts-node-dev
+
+```
+
