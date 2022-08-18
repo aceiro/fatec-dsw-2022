@@ -1,0 +1,35 @@
+{
+  "name": "starwars-api-2022",
+  "version": "1.0.0",
+  "description": "API de exemplo para o projeto MVP da Fatec de Araras",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.6",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aceiro/fatec-dsw-2022.git"
+  },
+  "keywords": [
+    "api",
+    "typescript",
+    "node",
+    "express"
+  ],
+  "author": "Erik Aceiro Antonio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aceiro/fatec-dsw-2022/issues"
+  },
+  "homepage": "https://github.com/aceiro/fatec-dsw-2022#readme"
+}
