@@ -40,4 +40,4 @@ Para maiores detalhes sobre o uso do yarn acessar a página de [documentação o
 
 ## Visão geral do MVP - Minimum Viable Product
 
-![MVP](https://github.com/aceiro/fatec-dsw-2022/tree/aula02.done.step1/diagrams/disciplinas-desenhos-dsw-2022.drawio.png)
+![MVP](https://github.com/aceiro/fatec-dsw-2022/blob/aula02.done.step1/diagrams/disciplinas-desenhos-dsw-2022.drawio.png?raw=true)
