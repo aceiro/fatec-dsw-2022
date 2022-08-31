@@ -37,3 +37,7 @@ Use esse comando na linha de comando do seu bash script ou prompt do windows par
 ```
 
 Para maiores detalhes sobre o uso do yarn acessar a página de [documentação oficial ](https://classic.yarnpkg.com/lang/en/docs/usage/)
+
+## Visão geral do MVP - Minimum Viable Product
+
+![MVP](https://github.com/aceiro/fatec-dsw-2022/tree/aula02.done.step1/diagrams/disciplinas-desenhos-dsw-2022.drawio.png)
