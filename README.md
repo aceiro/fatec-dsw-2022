@@ -13,9 +13,9 @@ Essa disciplina visa a elaboração de um projeto, empregando Metodologia Ágil,
 - [Github Actions](https://github.com/features/actions)
 
 ## Etapas
-- [Introdução - Apresentação da disciplina (✅)](https://github.com/aceiro/fatec-dsw-2022/tree/docs/docs)
-- [Parte 1 - Apresentação do projeto MVP. Configuração do ambiente de desenvolvimento(✅)](https://github.com/aceiro/fatec-dsw-2022/tree/docs/docs/aula-1.md)
-- [Parte 2 - Uso de TDD e Mocks para integração com serviço externo](https://github.com/aceiro/fatec-dsw-2022/tree/docs/docs/aula-2.md)
+- [Introdução - Apresentação da disciplina (✅)](https://github.com/aceiro/fatec-dsw-2022/tree/aula02.done.step1/docs/aula-01-Fatec_Araras.pdf)
+- [Parte 1 - Apresentação do projeto MVP. Configuração do ambiente de desenvolvimento(✅)](https://github.com/aceiro/fatec-dsw-2022/tree/aula02.done.step1/docs/aula-1.md)
+- [Parte 2 - Uso de TDD e Mocks para integração com serviço externo](https://github.com/aceiro/fatec-dsw-2022/tree/aula02.done.step1/docs/aula-2.md)
 - [Parte 3] - Criação da camada de serviço e API
 - [Parte 4] - Criação da camada de usuário e API
 - [Parte 5] - Validação de dados do usuário com JWT
