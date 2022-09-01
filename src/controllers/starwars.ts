@@ -1,58 +1,36 @@
-// TAREFA PARA CASA
-// ----------------
-// 1. Refatorar a classe starwars.test.ts para remover o codigo não usado
-// 2. Pesquisar sobre Teste Unitário com Jest
-// 3. Criar um arquivo externo para guardar os retornos do objeto do payload
-// 4. Criar outros testes para a classe starwars
+import { Controller, Get } from "@overnightjs/core";
+import { Request, Response } from "express";
 
+// Controller que processa métodos 
+// da API https://swapi.dev/
+// inicialmente vamos criar os recursos Mocks
+// usando alguns objetos hard-coded
 
-describe('Valida o comportamento de uma funcao', ()=>{
-    class Operation{
-        sum(a: number,b: number): number {
-            return a+b
-        }
-        sub(a: number,b: number): number {
-            return a-b
-        }
-        mult(a: number,b: number): number {
-            return a*b
-        }
-    }
-    
-    
-    it('Soma de a+b', ()=>{ 
-        const result: number = new Operation().sum(10,10)
-        expect(result).toBe(20)
-    });
+// Uma API em HTTP tem vários verbos
+// GET, PUT, POST, HEAD, OPTION
+// usamos um recurso para comunicação 
 
-    it('Soma de a-b', ()=>{
-        expect(new Operation().sub(10,10)).toBe(0)
-    });
+// Request & Response
+// GET    [endpoint]/api/planets
+//  ^          ^             ^
+//  |          |             |
+// verbo    endereço      recurso
+//         do servidor
 
-    it('Multi de a*b', ()=>{
-        expect(new Operation().mult(10,10)).toBe(100)
-    });
-});
+//  A comunicação ocorre via parâmetros
+//  [Request]  --->  servidor --- > [Response]
+//      ^                              ^
+//      |                              |
+//  parametros                     objeto JSON
 
-describe('Unit testing for Starwars API', ()=>{
-    it('Should return a not null list of planets', async ()=>{
-        const response = await global.testRequest.get('/planets')
-        expect(response).not.toBeNull()
-    })
+@Controller('planets')
+export class StarwarsController{
 
-    it('Should return a status code 200 of planets', async ()=>{
-        // TODO: Should return a status code 200 of planets
-        // checar o status code == 200
-        const response = await global.testRequest.get('/planets')
-        expect(response.status).toEqual(200)
-    })
-
-    it('Should return a valid list of planets', async ()=>{
-        // TODO: Should return a valid list of planets
-        // usar a API com dados Mockados no código
-        const response = await global.testRequest.get('/planets')
-        const body = response.body
-        expect(body).toEqual({
+    @Get('')
+    public getStarwarsPlanet(request: Request, response: Response): void {
+        // 1. usar hard-coded um retorno 
+        // 2. usar a chamada real da API
+        const responseBody = {
             "count": 60,
             "next": "https://swapi.dev/api/planets/?page=2",
             "previous": null,
@@ -290,6 +268,7 @@ describe('Unit testing for Starwars API', ()=>{
                     "url": "https://swapi.dev/api/planets/10/"
                 }
             ]
-        })
-    })
-})
+        }
+        response.send(responseBody)
+    }
+}
