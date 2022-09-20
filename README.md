@@ -28,5 +28,5 @@ Essa disciplina visa a elaboração de um projeto, empregando Metodologia Ágil,
 ## Projeto
 - [Definição do Projeto (✅)](https://github.com/aceiro/fatec-dsw-2022/tree/main/docs/projeto-fatec.pdf) 
 
-## Atividade - 05/10/2022
-- [Atividade (✅)](https://github.com/aceiro/fatec-dsw-2022/tree/main/docs/aula-4-fatec-pratica-api.pdf)
+## Atividade - 05/10/2022 - *updated*
+- [Atividade (✅)](https://github.com/aceiro/fatec-dsw-2022/tree/main/docs/projeto-fatec-dsw-v1.0.0.pdf)
