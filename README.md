@@ -25,8 +25,8 @@ Essa disciplina visa a elaboração de um projeto, empregando Metodologia Ágil,
 - [Parte 9] - Refinando a aplicação. Criação de documentação wm Swagger e Open API
 - [Parte 10] - Criação de documentação wm Swagger e Open API
 
-## Projeto
-- [Definição do Projeto (✅)](https://github.com/aceiro/fatec-dsw-2022/tree/main/docs/projeto-fatec.pdf) 
+## Projeto - *updated*
+- [Definição do Projeto (✅)](https://github.com/aceiro/fatec-dsw-2022/tree/main/docs/projeto-fatec-dsw-v1.0.0.pdf) 
 
-## Atividade - 05/10/2022 - *updated*
-- [Atividade (✅)](https://github.com/aceiro/fatec-dsw-2022/tree/main/docs/projeto-fatec-dsw-v1.0.0.pdf)
+## Atividade - 05/10/2022
+- [Atividade (✅)](https://github.com/aceiro/fatec-dsw-2022/tree/main/docs/aula-4-fatec-pratica-api.pdf)
